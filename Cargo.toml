@@ -11,3 +11,4 @@ repository = "https://github.com/kistro-rs/kistro-rs"
 description = "Build kURL compatible addOn/packages"
 
 [dependencies]
+clap = { version = "4.3.21", features = ["derive"] }
