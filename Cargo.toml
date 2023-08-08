@@ -12,3 +12,7 @@ description = "Build kURL compatible addOn/packages"
 
 [dependencies]
 clap = { version = "4.3.21", features = ["derive"] }
+
+[[bin]]
+path = "src/main.rs"
+name = "cargo-kistro"
